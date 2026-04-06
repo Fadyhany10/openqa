@@ -2,7 +2,7 @@ __author__ = "Christopher Potts and Omar Khattab"
 __version__ = "CS224u, Stanford, Spring 2022"
 
 import torch
-
+ 
 if torch.cuda.is_available():
     !pip uninstall cupy-cuda11x -y
     !pip install cupy-cuda113
